@@ -897,7 +897,13 @@ figcaption.mask span {
   margin-bottom: 35px;
 }
 
-
+.whatsapp {
+  position: fixed;
+  top: 82%;
+  left: 1%;
+  padding: 10px;
+  z-index: 10000000;
+}
 
 /*============================================================
     Footer
