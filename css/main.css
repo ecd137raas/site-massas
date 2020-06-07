@@ -432,7 +432,7 @@ width: 11px;
 }
 
 .project-filter {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .project-filter ul li {
@@ -478,6 +478,7 @@ figcaption.mask {
         -ms-transition: 0.3s ease-out 0s;
          -o-transition: 0.3s ease-out 0s;
             transition: 0.3s ease-out 0s;
+            
 }
 
 .portfolio-item:hover figcaption.mask {

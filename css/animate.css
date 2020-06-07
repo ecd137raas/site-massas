@@ -947,7 +947,7 @@ Copyright (c) 2013 Daniel Eden
     transform: translateY(0);
   }
 
-  20% {
+  30% {
     opacity: 1;
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
