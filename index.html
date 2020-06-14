@@ -1,278 +1,163 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<!-- Always force latest IE rendering engine -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="one page, business template, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-	<!-- meta character set -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="site de massas frescas">
+    <link rel="icon" href="img/icons/favicon.ico">
 
-	<!-- Site Title -->
-	<title>Massas</title>
-	<!--fonte-->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
-	<!--CSS -->
-	<!-- Fontawesome -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- Fancybox -->
-	<link rel="stylesheet" href="css/jquery.fancybox.css">
-	<!-- owl carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<!-- Animate -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Main Stylesheet -->
-	<link rel="stylesheet" href="css/main.css">
-	<!-- Main Responsive -->
-	<link rel="stylesheet" href="css/responsive.css">	
-	<!-- Modernizer Script for old Browsers -->
-	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-</head>	
-<body>
-	
-	<header id="navigation" class="navbar-fixed-top">
-		<div class="container">
-
-			<div class="navbar-header">
-				<!-- responsive nav button -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<!-- /responsive nav button -->
-
-				<!-- logo -->
-				<h1 class="navbar-brand">
-					<a href="#home">
-						<img src="img/logo.png" alt="logo" width="90" height="70">
-					</a>
-				</h1>
-				<!-- /logo -->
-
-			</div>
-
-			<!-- main nav -->
-			<nav class="navigation navbar-collapse navbar-right collapse" role="navigation" aria-expanded="false" style="height: 1px;">
-				<ul id="nav" class="nav navbar-nav">
-					<li class="current"><a href="#home">Home</a></li>
-					<li class=""><a href="#portfolio">Massas</a></li>
-					<li class=""><a href="#portfolio_sal">Salgados</a></li>  							
-				</ul>
-			</nav>
-			<!-- /main nav -->
-		</div>
-	</header>
-	
-	<a href="https://api.whatsapp.com/send?phone=+5511981938556&text=Gostaria de mais informações sobre as massas!" target="_blank">
-		<img  class="whatsapp" src="img/icons/wt2.gif" width="90" height="90" />
-	</a>
-	<!--
-	Home Slider
-	==================================== -->
-	<section id="home">     
-			<div id="home-carousel" class="carousel slide" data-interval="false">
-				<ol class="carousel-indicators">
-					<li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-				</ol>
-				<!--/.carousel-indicators-->
-				<div class="carousel-inner">
-
-					<div class="item active"  style="background-image: url('img/slider/bg1.png')" >
-						<div class="carousel-caption">
-							<div class="animated fadeIn">
-								<h2>Entregas <img src="img/icons/delivery.png" width="50px" height="50px"></img>
-									<br>
-									<p>Entregas para Jundiaí e região, consulte o valor pelo whatsapp</p>
-								</h2>
-							</div>
-						</div>
-					</div>              
-
-				</div>
-				<!--/.carousel-inner>
-				<nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
-					<a class="sl-prev hidden-xs" href="#home-carousel" data-slide="prev">
-						<i class="fa fa-angle-left fa-3x"></i>
-					</a>
-					<a class="sl-next" href="#home-carousel" data-slide="next">
-						<i class="fa fa-angle-right fa-3x"></i>
-					</a>
-				</nav>
-				-->
-
-			</div>
-	</section>
-	<!--
-	End #home Slider
-	========================== --> 	
-	     <!--
-        #Portfolio
-        ========================== -->
-        
-    <section id="portfolio">
-
-        <div class="section-title text-center wow fadeInDown">
-            <h2>Massas</h2>    
-            <p>Massas frescas e sem conservantes</p>
+    <title>Massas e Salgados</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-top-fixed/">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+      <a class="navbar-brand" href="#home"><img src="img/logo.png" width="80" height="60" alt="img_logo"></img></a>
+      <button class="navbar-toggler pull-left" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="#massas">Massas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#salgados">Salgados</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="http://www.nobrefood.com.br/" target="_blank">Linha Vegana</a>
+            </li>
+          </ul>
         </div>
-        
-        <nav class="project-filter clearfix text-center wow fadeInLeft"  data-wow-delay="0.5s">
-            <ul class="list-inline">
-				
-				<li><a href="javascript:;" class="filter" data-filter=".ms">Massa Simples</a></li>
-				<li><a href="javascript:;" class="filter" data-filter=".mi">Massa Integral</a></li>
-				<li><a href="javascript:;" class="filter" data-filter=".mr">Massas Recheadas</a></li>
-				
-            </ul>
-        </nav>
-
-        <div id="projects" class="clearfix">
-			
-			<div class="container">
-					
-				<figure class='mix portfolio-item ms' style='display: inline-block;'>
-					<img class='img-responsive' src='img/portfolio/img_1.png' alt='Portfolio Item'>
-					<figcaption class='mask'>
-						<h3>Nhoque de Batata</h3>
-						<h3>Embalagem com 500grs | Serve até 2 pessoas</h3>
-						<span>R$ 13,00</span>
-					</figcaption>
-				</figure>
-				
-				<figure class='mix portfolio-item ms' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_2.png' alt='Portfolio Item'><figcaption class='mask'><h3>Nhoque de Mandioquinha</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 16,00</span></figcaption></figure>
-				<figure class='mix portfolio-item ms' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_3.png' alt='Portfolio Item'><figcaption class='mask'><h3>Nhoque de Espinafre </h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 16,00</span></figcaption></figure>
-				<figure class='mix portfolio-item ms' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_4.png' alt='Portfolio Item'><figcaption class='mask'><h3>Fettuccine/ Penne/ Spaghetti</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 13,00</span></figcaption></figure>
-				<figure class='mix portfolio-item ms' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_5.png' alt='Portfolio Item'><figcaption class='mask'><h3>Massa de Lasanha  </h3><h3>Embalagem com 500grs | Serve até 5 pessoas</h3><span>R$ 15,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_6.png' alt='Portfolio Item'><figcaption class='mask'><h3>Conchiglione de Frango com Catupiry ou 4 Queijos</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 23,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_7.png' alt='Portfolio Item'><figcaption class='mask'><h3>Rondele de Presunto e Queijo</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 23,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_8.png' alt='Portfolio Item'><figcaption class='mask'><h3>Manicaretti 4 queijos ou Caprese</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 23,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_9.png' alt='Portfolio Item'><figcaption class='mask'><h3>Nhoque de Batata com Catupiry ou Mussarela </h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 23,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_10.png' alt='Portfolio Item'><figcaption class='mask'><h3>Capeletti de Carne ou Frango</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 23,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_11.png' alt='Portfolio Item'><figcaption class='mask'><h3>Canelone de Ricota com Espinafre (mais sabores)</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 23,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_12.png' alt='Portfolio Item'><figcaption class='mask'><h3>Raviole Carne,Queijo e Manjericão ou Ricota</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 23,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_13.png' alt='Portfolio Item'><figcaption class='mask'><h3>Raviolone Caprese ou Ricota com Manjericão</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 23,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_14.png' alt='Portfolio Item'><figcaption class='mask'><h3>Mezzaluna Caprese ou Brócolis</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 23,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mi' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_15.png' alt='Portfolio Item'><figcaption class='mask'><h3>Raviolone Ricota Tomate e Manjericão</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 27,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mi' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_16.png' alt='Portfolio Item'><figcaption class='mask'><h3>Mezzaluna Peito de Peru com Ricota</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 27,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_17.png' alt='Portfolio Item'><figcaption class='mask'><h3>Nhoque de Mandioquinha com Cream cheese</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 26,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_18.png' alt='Portfolio Item'><figcaption class='mask'><h3>Nhoque de Batata com Provolone ou Gorgonzola</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 26,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_19.png' alt='Portfolio Item'><figcaption class='mask'><h3>Raviole Mussarela de Búfala (mais sabores)</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 26,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_20.png' alt='Portfolio Item'><figcaption class='mask'><h3>Raviolone de Abóbora com Carne Seca </h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 26,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_21.png' alt='Portfolio Item'><figcaption class='mask'><h3>Tortellone Abóbora e Gorgonzola (mais sabores)</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 26,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_22.png' alt='Portfolio Item'><figcaption class='mask'><h3>Agnolotti Queijo Damasco e Cream Cheese </h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 26,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_23.png' alt='Portfolio Item'><figcaption class='mask'><h3>Mezzaluna Verde com Búfala (mais sabores)</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 26,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_24.png' alt='Portfolio Item'><figcaption class='mask'><h3>Raviolone de Brie com Pistache ou Burrata</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 35,00</span></figcaption></figure>
-				<figure class='mix portfolio-item mr' style='display: inline-block;'><img class='img-responsive' src='img/portfolio/img_25.png' alt='Portfolio Item'><figcaption class='mask'><h3>Mezzaluna  de Brie com Parma</h3><h3>Embalagem com 500grs | Serve até 2 pessoas</h3><span>R$ 35,00</span></figcaption></figure>
-
-
-			</div>
-		</div> <!-- end #projects -->
-		
-	</section>
-	
-	<section id="portfolio_sal">
-
-        <div class="section-title text-center wow fadeInDown">
-            <h2>Salgados</h2>    
-            <p>Salgados fritos e assados</p>
+    </nav>
+    <main role="main" class="container-fluid">
+        <a href="https://api.whatsapp.com/send?phone=+5511981938556&text=Gostaria de mais informações sobre as massas!" target="_blank">
+          <img  class="whatsapp" src="img/icons/wt2.gif" width="90" height="90" />
+        </a>
+        <div id="home">
+            <img src="img/slider/bg1.jpeg" class="img-responsive" width="100%" alt="Responsive image">
         </div>
-		<div class="container">
-			<table class="table table-responsive table-bordered">
-				<tbody>
+        <div id="massas">
+          <div class="container" style="text-align: center; margin-top: 10px;">
+            <h5>Massas</h5>
+            <p><small class="text-muted">Massas Simples, Integral e Recheadas</small></p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_1.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Nhoque de Batata 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 13,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_2.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Nhoque de Mandioquinha 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 16,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_3.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Nhoque de Espinafre  500grs</small></p><p style='font-size: 12px; color: black;'>R$ 16,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_4.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Fettuccine/ Penne/ Spaghetti 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 13,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_5.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Massa de Lasanha   500grs</small></p><p style='font-size: 12px; color: black;'>R$ 15,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_6.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Conchiglione de Frango com Catupiry ou 4 Queijos 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_7.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Rondele de Presunto e Queijo 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_8.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Manicaretti 4 queijos ou Caprese 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_9.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Nhoque de Batata com Catupiry ou Mussarela  500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_10.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Capeletti de Carne ou Frango 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_11.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Canelone de Ricota com Espinafre (mais sabores) 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_12.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Raviole Carne,Queijo e Manjericão ou Ricota 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_13.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Raviolone Caprese ou Ricota com Manjericão 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_14.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Mezzaluna Caprese ou Brócolis 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_15.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Raviolone Ricota Tomate e Manjericão 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 27,00</p></div>              
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_16.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Mezzaluna Peito de Peru com Ricota 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 27,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_17.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Nhoque de Mandioquinha com Cream cheese 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 26,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_18.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Nhoque de Batata com Provolone ou Gorgonzola 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 26,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_19.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Raviole Mussarela de Búfala (mais sabores) 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 26,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_20.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Raviolone de Abóbora com Carne Seca  500grs</small></p><p style='font-size: 12px; color: black;'>R$ 26,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_21.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Tortellone Abóbora e Gorgonzola (mais sabores) 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 26,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_22.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Agnolotti Queijo Damasco e Cream Cheese  500grs</small></p><p style='font-size: 12px; color: black;'>R$ 26,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_23.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Mezzaluna Verde com Búfala (mais sabores) 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 26,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_24.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Raviolone de Brie com Pistache ou Burrata 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 35,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 2px;'><img src='img/portfolio/img_25.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 2px;'><p><small class='text-muted'>Mezzaluna  de Brie com Parma 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 35,00</p></div>
+            </div>
+          </div>
 
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_1.png' alt='Portfolio Item'></td>  <td> <h6>Coxinha de Frango </h6><h6>Embalagem com 500grs</h6><h6></h6> <h6 style='color: crimson;'>R$ 20,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_2.png' alt='Portfolio Item'></td><td><h6>Bolinha de Queijo </h6><h6>Embalagem com 500grs</h6><h6></h6> <h6 style='color: crimson;'>R$ 20,00</h6> </td></tr>
+        </div>
 
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_2.png' alt='Portfolio Item'></td>  <td> <h6>Bolinha de provolone </h6><h6>Embalagem com 500grs</h6><h6></h6> <h6 style='color: crimson;'>R$ 23,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_4.png' alt='Portfolio Item'></td><td><h6>Kibe (com ou sem recheio) </h6><h6>Embalagem com 500grs</h6><h6></h6> <h6 style='color: crimson;'>R$ 23,00</h6> </td></tr>
+        <div id="salgados">
+          <div class="container" style="text-align: center; margin-top: 10px;">
+            <h5 >Salgados</h5>
+            <p><small class="text-muted">Salgados fritos e assados</small></p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_1.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Coxinha de Frango 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 20,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_2.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Bolinha de Queijo 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 20,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_2.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Bolinha de provolone 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_4.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Kibe (com ou sem recheio) 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 23,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_5.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Bolinho de Bacalhau 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 33,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_6.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Empada Frango ou Palmito 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 21,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_7.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Esfirra Carne 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 21,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_8.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Trouxinha Calabresa,Frango c/ Requeijão 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 21,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_9.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Mini pizza de Mussarela ,Presunto e Queijo , Calabresa 30 unidades</small></p><p style='font-size: 12px; color: black;'>R$ 30,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_10.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Pastelzinho de forno Calabresa, Carne, Pizza 25 unidades</small></p><p style='font-size: 12px; color: black;'>R$ 30,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_11.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Mini Quiche 25 unidades</small></p><p style='font-size: 12px; color: black;'>R$ 30,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_12.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Mini hambúrguer  20 unidades</small></p><p style='font-size: 12px; color: black;'>R$ 40,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_img_13.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Mini bauru  20 unidades</small></p><p style='font-size: 12px; color: black;'>R$ 40,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_blank.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Croissant 1kg</small></p><p style='font-size: 12px; color: black;'>R$ 43,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_blank.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Pão de Batata com Catupiry  1kg</small></p><p style='font-size: 12px; color: black;'>R$ 42,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_blank.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Pão de Queijo 1kg</small></p><p style='font-size: 12px; color: black;'>R$ 20,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_blank.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Tortas  Frango,Caprese e Palmito 1kg</small></p><p style='font-size: 12px; color: black;'>R$ 37,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_blank.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Mini Churros Doce de Leite 1kg</small></p><p style='font-size: 12px; color: black;'>R$ 31,00</p></div>
+            </div>
+            <div class="row">
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_blank.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Brusquetas 10 unidades</small></p><p style='font-size: 12px; color: black;'>R$ 21,00</p></div>
+              <div class='col-6 col-sm-2' style='padding-top: 5px;'><img src='img/portfolio/s_blank.jpeg' class='Img-fluid' alt='Responsive image'></div><div class='col-6 col-sm-2' style='padding-top: 5px;'><p><small class='text-muted'>Enroladinho de Presunto e Queijo 500grs</small></p><p style='font-size: 12px; color: black;'>R$ 21,00</p></div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer class="footer">
+      <div class="container" style="height: 80px; margin-top: 10px;">
+        <span class="text-muted" >Nossas redes sociais: 
+          <a href="https://www.instagram.com/massasdafla/" target="_blank"><img src="img/icons/insta.png" width="20" height="20"></img></a>
+          <a href="https://www.facebook.com/massasdafla/" target="_blank"><img src="img/icons/fb.webp" width="20" height="20"></img></a>
+        </span>
+      </div>
+    </footer> 
+    <!-- Optional JavaScript -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153083946-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_5.png' alt='Portfolio Item'></td>  <td> <h6>Bolinho de Bacalhau </h6><h6>Embalagem com 500grs</h6><h6></h6> <h6 style='color: crimson;'>R$ 33,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_6.png' alt='Portfolio Item'></td><td><h6>Empada Frango ou Palmito </h6><h6>Embalagem com 500grs</h6><h6></h6> <h6 style='color: crimson;'>R$ 21,00</h6> </td></tr>
-
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_7.png' alt='Portfolio Item'></td>  <td> <h6>Esfirra Carne </h6><h6>Embalagem com 500grs</h6><h6></h6> <h6 style='color: crimson;'>R$ 21,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_8.png' alt='Portfolio Item'></td><td><h6>Trouxinha Calabresa,Frango c/ Requeijão </h6><h6>Embalagem com 500grs</h6><h6></h6> <h6 style='color: crimson;'>R$ 21,00</h6> </td></tr>
-
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_9.png' alt='Portfolio Item'></td>  <td> <h6>Mini pizza de Mussarela ,Presunto e Queijo , Calabresa </h6><h6></h6><h6>30 unidades</h6> <h6 style='color: crimson;'>R$ 30,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_10.png' alt='Portfolio Item'></td><td><h6>Pastelzinho de forno Calabresa, Carne, Pizza </h6><h6></h6><h6>25 unidades</h6> <h6 style='color: crimson;'>R$ 30,00</h6> </td></tr>
-
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_11.png' alt='Portfolio Item'></td>  <td> <h6>Mini Quiche </h6><h6></h6>Bacalhau Brócolis c/ Bacon (mais sabores)<h6>25 unidades</h6> <h6 style='color: crimson;'>R$ 30,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_12.png' alt='Portfolio Item'></td><td><h6>Mini hambúrguer  </h6><h6></h6><h6>20 unidades</h6> <h6 style='color: crimson;'>R$ 40,00</h6> </td></tr>
-
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_img_13.png' alt='Portfolio Item'></td>  <td> <h6>Mini bauru  </h6><h6></h6><h6>20 unidades</h6> <h6 style='color: crimson;'>R$ 40,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_blank.png' alt='Portfolio Item'></td><td><h6>Croissant </h6><h6>Embalagem com 1kg</h6><h6></h6> <h6 style='color: crimson;'>R$ 43,00</h6> </td></tr>
-
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_blank.png' alt='Portfolio Item'></td>  <td> <h6>Pão de Batata com Catupiry  </h6><h6>Embalagem com 1kg</h6><h6></h6> <h6 style='color: crimson;'>R$ 42,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_blank.png' alt='Portfolio Item'></td><td><h6>Pão de Queijo </h6><h6>Embalagem com 1kg</h6><h6></h6> <h6 style='color: crimson;'>R$ 20,00</h6> </td></tr>
-
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_blank.png' alt='Portfolio Item'></td>  <td> <h6>Tortas  Frango,Caprese e Palmito </h6><h6>Embalagem com 1kg</h6><h6></h6> <h6 style='color: crimson;'>R$ 37,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_blank.png' alt='Portfolio Item'></td><td><h6>Mini Churros Doce de Leite </h6><h6>Embalagem com 1kg</h6><h6></h6> <h6 style='color: crimson;'>R$ 31,00</h6> </td></tr>
-
-					<tr> <td width='90'><img class='img-responsive' src='img/portfolio/s_blank.png' alt='Portfolio Item'></td>  <td> <h6>Brusquetas </h6><h6></h6><h6>10 unidades</h6> <h6 style='color: crimson;'>R$ 21,00</h6> </td> <td width='90'><img class='img-responsive' src='img/portfolio/s_blank.png' alt='Portfolio Item'></td><td><h6>Enroladinho de Presunto e Queijo </h6><h6>Embalagem com 500grs</h6><h6></h6> <h6 style='color: crimson;'>R$ 21,00</h6> </td></tr>
-
-
-
-				</tbody>
-			  </table>
-		</div>
-				
-	</section>
-    <!--
-    End #Portfolio
-    ========================== -->
-
-	<!--
-	Footer
-	========================== --> 	
-	<footer id="footer" class="text-center">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="footer-logo wow fadeInDown">
-						<img src="img/logo.png" alt="logo" width="80" height="65" >
-					</div>
-					<div class="footer-social wow fadeInUp">
-						<h3>nossas redes sociais</h3>
-						<ul class="text-center list-inline">
-							<li><a href="https://www.facebook.com/massasdafla/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
-							<li><a href="https://www.instagram.com/massasdafla/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	      <!--
-    JavaScripts
-    ========================== -->
-    
-    <!-- main jQuery -->
-    <script src="js/vendor/jquery-1.11.1.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- jquery.nav -->
-    <script src="js/jquery.nav.js"></script>
-    <!-- Portfolio Filtering -->
-    <script src="js/jquery.mixitup.min.js"></script>
-    <!-- Fancybox -->
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <!-- Parallax sections -->
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <!-- jQuery Appear -->
-    <script src="js/jquery.appear.js"></script>
-    <!-- countTo -->
-    <script src="js/jquery-countTo.js"></script>
-    <!-- owl carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- WOW script -->
-    <script src="js/wow.min.js"></script>
-    <!-- theme custom scripts -->
-	<script src="js/main.js"></script>
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153083946-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-153083946-2');
-	</script>
-</body>
+      gtag('config', 'UA-153083946-2');
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
