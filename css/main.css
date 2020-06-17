@@ -36,18 +36,16 @@
   text-align: center;
 }
 
-.footer{
-  width: 100%;
+.footer {
+  width: auto;
   height: 80px; 
   margin-top: 20px;
   background-color: #F8F9FA;
-  align-items: center;
 }
 
-.footer p {
-  width: 100%;
-  align-content: center;
-  
+.footer h5 {
+  font-size: small;
+
 }
 
 .footer img {
