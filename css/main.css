@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.box-produto-header h4 {
+.box-produto-header h3 {
   margin-top: 20px;
 }
 
@@ -12,6 +12,7 @@
 
 .box-produto {
   margin: 10px;
+  height: 280px;
 }
 
 .box-produto img {
@@ -20,8 +21,8 @@
 }
 
 .box-produto p {
-  font-style: unset;
-  font-size: 15px;
+  margin-top: 7px;
+  font-size: 14px;
   color: gray;
 }
 
