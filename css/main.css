@@ -1,3 +1,35 @@
+.box-produto-header {
+  text-align: center;
+}
+
+.box-produto-header h3 {
+  margin-top: 20px;
+}
+
+.box-produto-header hr {
+  opacity: inherit;
+}
+
+.box-produto {
+  margin: 10px;
+  height: 300px;
+}
+
+.box-produto img {
+  width:150px; 
+  height:150px; 
+}
+
+.box-produto p {
+  margin-top: 7px;
+  font-size: 14px;
+  color: gray;
+}
+
+.box-produto h6 {
+  color: gray;
+  font-weight: bold;
+}
 
 
 .whatsapp {
@@ -15,6 +47,8 @@
   opacity: 90%;
  
 }
+
+
 
 .figure-box {
   width: 100%;
@@ -44,16 +78,15 @@
   text-align: center;
 }
 
+
 .footer {
   width: auto;
   height: 80px; 
   margin-top: 20px;
   background-color: #F8F9FA;
 }
-
 .footer h5 {
   font-size: small;
-
 }
 
 .footer img {
